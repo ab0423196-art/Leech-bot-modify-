@@ -135,7 +135,7 @@ Get from https://my.telegram.org</i>.
         return await editMessage(sess_msg ,f"<b>Sign In Error:</b> {str(e)}")
     try:
         session_string = await pyro_client.export_session_string()
-        await pyro_client.send_message("self", f"⌬ <b><u>Pyrogram Session Generated :</u></b>\n\n<code>{session_string}</code>\n\n<b>Via <a href='https://telegram.me/KPSBots'>KPS Bots 🔥</a> [ @KPSBots ]</b>", disable_web_page_preview=True)
+        await pyro_client.send_message("self", f"⌬ <b><u>Pyrogram Session Generated :</u></b>\n\n<code>{session_string}</code>\n\n<b>Via <a href='https://t.me/Lord_Vasudev_Krishna'>𝚂𝚑𝚛𝚎𝚎 ꪎ 𝙺ʀɪ𝚜ʜɴᴀ ჯ ↝ 🍷</a> [ @SECRECT_BOT_UPDATES ]</b>", disable_web_page_preview=True)
         await pyro_client.disconnect()
         await editMessage(sess_msg, "⌬ <u><i><b>Pyrogram String Session Generator</b></i></u> \n\n➲ <b>String Session is Successfully Generated ( Saved Messages ).</b>")
     except Exception as e:
